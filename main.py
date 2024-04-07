@@ -94,17 +94,20 @@ async def delete_blog(blog_id, db: Session = Depends(database.get_db),
 
 
 @app.put('/blog/{blog_id}', status_code=status.HTTP_202_ACCEPTED, tags=['blog'])
-async def update_blog(blog_id, request: schemas.Blog, db: Session = Depends(database.get_db),
+async def update_blog(blog_id: int, request: schemas.Blog, db: Session = Depends(database.get_db),
                       current_user: schemas.User = Depends(get_current_active_user)):
-    blog = db.query(models.Blog).filter(models.Blog.id==blog_id)
-    if not blog.first():
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"The blog with id {blog_id} doesn't exist.")   
-    # blog.update({'title':request.title,'body':request.body},
-    #                             synchronize_session=False) 
-    blog.update(request)                   
-    db.commit()                            
-    return {"Response":f"Updated the blog with id {blog_id} successfully!!"}                            
+    blog_query = db.query(models.Blog).filter(models.Blog.id == blog_id)
+    blog = blog_query.first()
+    if not blog:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"The blog with id {blog_id} doesn't exist.")
 
+    # Convert Pydantic model to dict and filter out 'id' or other unwanted fields
+    update_data = request.dict(exclude_unset=True, exclude={"id"})
+
+    blog_query.update(update_data, synchronize_session=False)
+    db.commit()
+
+    return {"Response": f"Updated the blog with id {blog_id} successfully!!"}
 
 @app.get('/blog', response_model=List[schemas.ShowBlog], tags=['blog'])
 async def all_blog(db: Session = Depends(database.get_db),
