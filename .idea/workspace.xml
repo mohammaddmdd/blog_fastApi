@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f62b1fc6-a303-494b-90b4-0a278750400a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/blog_fastApi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
+    <list default="true" id="f62b1fc6-a303-494b-90b4-0a278750400a" name="Changes" comment="Update Readme.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pip-3.11.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pip3.11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/pip3.11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/uvicorn.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/uvicorn.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/wheel-3.11.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/wheel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Scripts/wheel.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/wheel3.11.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Scripts/wheel3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,28 +33,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2ekOpdUorEQCybXnXFpAHkZ2WCv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/blog_fastApi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\blog_fastApi" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="blog_fastApi" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
@@ -81,11 +97,124 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712445293706</updated>
-      <workItem from="1712445315521" duration="445000" />
+      <workItem from="1712445315521" duration="4172000" />
+      <workItem from="1712522517991" duration="6015000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial project setup">
+      <option name="closed" value="true" />
+      <created>1712445784347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712445784347</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Set up database and define models">
+      <option name="closed" value="true" />
+      <created>1712447416532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447416532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement authentication mechanism">
+      <option name="closed" value="true" />
+      <created>1712447495089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447495089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Pydantic schemas for data validation">
+      <option name="closed" value="true" />
+      <created>1712447607557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447607557</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implement API endpoints">
+      <option name="closed" value="true" />
+      <created>1712447683203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447683203</updated>
+    </task>
+    <task id="LOCAL-00006" summary="database migrations with Alembic">
+      <option name="closed" value="true" />
+      <created>1712447980692</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712447980692</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added SQLAlchemy setup for MySQL connection">
+      <option name="closed" value="true" />
+      <created>1712523321307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712523321307</updated>
+    </task>
+    <task id="LOCAL-00008" summary="explicitly setting a length for all VARCHAR fields for SQLAlchemy models">
+      <option name="closed" value="true" />
+      <created>1712523783652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712523783652</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix Update method in main">
+      <option name="closed" value="true" />
+      <created>1712533019758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533019758</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add sqlalchemy.url Configuration Line">
+      <option name="closed" value="true" />
+      <created>1712533148293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533148293</updated>
+    </task>
+    <task id="LOCAL-00011" summary=" sqlalchemy.url does not include extra quotes around the URL string">
+      <option name="closed" value="true" />
+      <created>1712533258891</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533258891</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update Readme.md">
+      <option name="closed" value="true" />
+      <created>1712533300484</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533300484</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial project setup" />
+    <MESSAGE value="Set up database and define models" />
+    <MESSAGE value="Implement authentication mechanism" />
+    <MESSAGE value="Add Pydantic schemas for data validation" />
+    <MESSAGE value="Implement API endpoints" />
+    <MESSAGE value="database migrations with Alembic" />
+    <MESSAGE value="Added SQLAlchemy setup for MySQL connection" />
+    <MESSAGE value="explicitly setting a length for all VARCHAR fields for SQLAlchemy models" />
+    <MESSAGE value="Fix Update method in main" />
+    <MESSAGE value="Add sqlalchemy.url Configuration Line" />
+    <MESSAGE value=" sqlalchemy.url does not include extra quotes around the URL string" />
+    <MESSAGE value="Update Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Readme.md" />
   </component>
 </project>
