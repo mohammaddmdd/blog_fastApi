@@ -12,7 +12,7 @@ class Blog(BaseModel):
 
 class User(BaseModel):
     username: str
-    email: str
+    email: Optional[str] = None
     password: str
 
     class Config():
@@ -21,7 +21,7 @@ class User(BaseModel):
 
 class ShowUser(BaseModel):
     username: str
-    email: str
+    email: Optional[str] = None
     blogs: List[Blog] = []
 
     class Config():
@@ -30,7 +30,7 @@ class ShowUser(BaseModel):
 
 class ShowUser2(BaseModel):
     username: str
-    email: str
+    email: Optional[str] = None
 
     class Config():
         orm_mode = True
@@ -57,5 +57,3 @@ class Token(BaseModel):
 
 class TokenData(BaseModel):
     username: Optional[str] = None
-
-
