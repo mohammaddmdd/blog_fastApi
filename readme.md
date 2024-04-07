@@ -61,7 +61,7 @@ Authorization : Bearer token
 ``` 
 [POST]
 http://localhost:8000/login
-in form passs
+in form pass
 username & password
 ``` 
 7. To create a user
@@ -74,6 +74,6 @@ Authorization : Bearer token
 ### Default Username & Password
 
 ``` 
-username = divanshu
-password = divanshu
+username = test
+password = test
 ```
