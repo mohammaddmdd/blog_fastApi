@@ -6,8 +6,8 @@ from sqlalchemy.orm import relationship
 class Blog(database.Base):
     __tablename__ = "blogs"
     id = Column(Integer, primary_key=True, index=True)
-    title = Column(String)
-    body = Column(String)
+    title = Column(String(255))
+    body = Column(String(255))
     user_id = Column(Integer, ForeignKey('users.id'))
     creator = relationship("User", back_populates="blogs")
 
@@ -15,10 +15,8 @@ class Blog(database.Base):
 class User(database.Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True, index=True)
-    username = Column(String)
-    email = Column(String)
-    password = Column(String)
+    username = Column(String(255))
+    email = Column(String(255))
+    password = Column(String(255))
 
     blogs = relationship('Blog', back_populates="creator")
-
-
